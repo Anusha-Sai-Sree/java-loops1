@@ -1,0 +1,16 @@
+import java.util.*;
+class Reverse
+{
+public static void main(String args[])
+{
+int n,m;
+Scanner sc =new Scanner(System.in);
+System.out.println("enter the limit");
+n=sc.nextInt();
+m=50;
+System.out.println("enter the value");
+while(m>=n)
+{
+System.out.println(m);
+m=m-2;
+}}}

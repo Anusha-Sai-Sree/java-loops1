@@ -1,0 +1,22 @@
+class Replacing {
+   static int convert1To8Rec(int num)
+    {
+        if (num == 1)
+            return 8;
+        int digit = num % 10;
+        if (digit == 1)
+            digit = 8;
+        return convert1To8Rec(num / 10) * 10 + digit;
+    } 
+    static int convert1To8(int num)
+    {
+        if (num == 1)
+            return 8;
+        else
+            return convert1To8Rec(num);
+    }
+    public static void main(String[] args)
+    {
+        System.out.println(convert1To8(16719));
+    }
+}

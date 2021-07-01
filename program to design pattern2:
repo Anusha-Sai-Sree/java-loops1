@@ -1,0 +1,25 @@
+import java.util.*;  
+public class Right1 
+{  
+public static void main(String[] args)  
+{  
+int i, j, N;  
+Scanner sc = new Scanner(System.in);  
+System.out.print("Enter rows");  
+N = sc.nextInt();          
+for (i= 0; i<=N-1; i++)  
+{  
+for (j=0; j<=i; j++)   
+{  
+System.out.print("*"+ " ");  
+}   
+System.out.println("");   
+}   
+for (i=N-1; i>=0; i--)  
+{  
+for(j=0; j <= i-1;j++)  
+{  
+System.out.print("*"+ " ");  
+}  
+System.out.println("");  
+}}}

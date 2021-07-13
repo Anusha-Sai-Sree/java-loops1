@@ -1,4 +1,4 @@
-/*1. Write java code to generate prime nos from 1 to n using a method called 'primesNos' which receives a single argument n.*/
+/*Write a java program to find factorial of n by implementing the concept of nesting of functions. - call display() method which calls fact() method. */
 import java.util.*;
 class Factorial
 {

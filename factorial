@@ -1,3 +1,4 @@
+/*1. Write java code to generate prime nos from 1 to n using a method called 'primesNos' which receives a single argument n.*/
 import java.util.*;
 class Factorial
 {
